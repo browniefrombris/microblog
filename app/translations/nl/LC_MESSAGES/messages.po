@@ -1,0 +1,271 @@
+# Dutch translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-04 10:33+1000\n"
+"PO-Revision-Date: 2021-05-04 09:03+1000\n"
+"Last-Translator: \n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: app/__init__.py:20
+msgid "Please log in to access this page."
+msgstr "Log in om deze pagina te toegang alstublieft."
+
+#: app/email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr "Stel Uw Wachtwoord Opnieuw In"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:51
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:43
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "Onthoud Me"
+
+#: app/forms.py:14 app/routes.py:79 app/templates/login.html:5
+msgid "Sign In"
+msgstr "Teken In"
+
+#: app/forms.py:19 app/forms.py:38
+msgid "Email"
+msgstr "Email"
+
+#: app/forms.py:22 app/forms.py:45
+msgid "Repeat Password"
+msgstr "Herhaal Wachtwoord"
+
+#: app/forms.py:24 app/routes.py:100 app/templates/register.html:5
+msgid "Register"
+msgstr "Registreer"
+
+#: app/forms.py:29 app/forms.py:64
+msgid "Please use a different username."
+msgstr "Gebruik een andere gebruikersnaam alstublieft."
+
+#: app/forms.py:34
+msgid "Please use a different email address."
+msgstr "Gebruik een andere email adres altublieft."
+
+#: app/forms.py:39 app/forms.py:47
+msgid "Request Password Reset"
+msgstr "Verzoek Wachtwoord Resetten"
+
+#: app/forms.py:52
+msgid "About me"
+msgstr "Over me"
+
+#: app/forms.py:54 app/forms.py:73
+msgid "Submit"
+msgstr "Vezend"
+
+#: app/forms.py:72
+msgid "Say something"
+msgstr "Zeg iets"
+
+#: app/routes.py:35
+msgid "Your post is now live!"
+msgstr "Uw post is leven nu!"
+
+#: app/routes.py:44 app/templates/base.html:21
+msgid "Home"
+msgstr "Thuis"
+
+#: app/routes.py:59 app/templates/base.html:22
+msgid "Explore"
+msgstr "Verken"
+
+#: app/routes.py:72
+msgid "Invalid username or password"
+msgstr "Ongeldig gebruikersnaam of wachtwoord"
+
+#: app/routes.py:98
+msgid "Congratulations, you are now a registered user!"
+msgstr "Gefeliciteerd, u bent nu een geregistreerde gebruiker!"
+
+#: app/routes.py:113
+msgid "Check your email for the instructions to reset your password"
+msgstr "Control uw email voor de instructies om uw wachtwoord te restetten"
+
+#: app/routes.py:116 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Reset Wachtwoord"
+
+#: app/routes.py:130
+msgid "Your password has been reset."
+msgstr "Uw wachtwoord is nu gereset."
+
+#: app/routes.py:159
+msgid "Your changes have been saved."
+msgstr "Uw veranderingen zijn nu gered."
+
+#: app/routes.py:164 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Verander van Profiel"
+
+#: app/routes.py:175 app/routes.py:195
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Gebruiker %(username)s vond niet."
+
+#: app/routes.py:178
+msgid "You cannot follow yourself!"
+msgstr "U can uwzelf niet volg!"
+
+#: app/routes.py:182
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "U volg %(username)s!"
+
+#: app/routes.py:198
+msgid "You cannot unfollow yourself!"
+msgstr "U kunt uwzelf niet ontvolgen!"
+
+#: app/routes.py:202
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "U volg %(username)s niet."
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:18
+msgid "Error: the translation service failed."
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Terug"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Er is een onverwachte fout gebeurd"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "De bedeerder is op de hoogte gebracht. Excuses voor het ongemak!"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s gezegd %(when)s"
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Welkom bij Microblog"
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "Login"
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr "Profiel"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "Uitlog"
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Hoi, %(username)s!"
+
+#: app/templates/index.html:17 app/templates/user.html:41
+msgid "Newer posts"
+msgstr "Niewere posts"
+
+#: app/templates/index.html:22 app/templates/user.html:46
+msgid "Older posts"
+msgstr "Oudere posts"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "Nieuwe Gebruiker?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "Klik om te Registeren!"
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Vergat Uw Wachtwoord?"
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "Klik om Het te Reset"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Reset Uw Wachtwoord"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Gebruiker"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Laatst gezien op"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d volgelingen"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d volgt"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Verander Uw Profiel"
+
+#: app/templates/user.html:20
+msgid "Follow"
+msgstr "Volg"
+
+#: app/templates/user.html:27
+msgid "Unfollow"
+msgstr "Ontvolg"
+
+#~ msgid "Search"
+#~ msgstr "Zoeken"
+
+#~ msgid "Search Results"
+#~ msgstr "Zoekresultaten"
+
+#~ msgid "Previous results"
+#~ msgstr "Eerdere resultaten"
+
+#~ msgid "Next results"
+#~ msgstr "Volgende resultaten"
+

@@ -1,0 +1,88 @@
+2021-04-29 23:07:50,105 ERROR: Exception on /reset_password_request [POST] [in c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\routes.py", line 103, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\email.py", line 20, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "D:\Google Drive\Coding\Web Development\microblog\app\models.py", line 67, in get_reset_password_token
+    app.config['SECRET_KEY'], algorithm='HS256').decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2021-04-29 23:14:45,228 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:47]
+2021-04-29 23:19:55,774 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:47]
+2021-04-29 23:40:34,630 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:47]
+2021-04-30 00:10:48,980 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:49]
+2021-04-30 00:11:04,108 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:49]
+2021-05-02 19:48:17,641 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 19:54:45,457 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:02:44,359 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:10:01,552 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:10:30,337 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:11:06,976 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:11:29,425 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:12:37,427 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:13:11,699 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-02 20:13:28,178 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 08:58:46,223 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 08:59:17,843 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 09:04:17,135 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 09:17:57,045 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 09:25:35,238 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 09:25:44,522 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 09:56:07,583 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:01:35,788 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:27:34,435 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:33:11,102 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:33:21,715 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:33:32,179 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:39:07,397 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:40:26,112 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 10:43:28,213 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:52]
+2021-05-04 17:50:30,385 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 17:54:28,311 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 18:02:49,322 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 18:02:56,177 ERROR: Exception on / [GET] [in c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask_login\utils.py", line 271, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask_login\login_manager.py", line 174, in unauthorized
+    redirect_url = make_login_url(login_view, next_url=request.url)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask_login\utils.py", line 120, in login_url
+    base = expand_login_view(login_view)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask_login\utils.py", line 97, in expand_login_view
+    return url_for(login_view)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'login'. Did you mean 'auth.login' instead?
+2021-05-04 22:34:18,802 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]

@@ -1,0 +1,95 @@
+2021-05-04 22:46:21,930 ERROR: Exception on /auth/reset_password_request [POST] [in c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\routes.py", line 61, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\email.py", line 7, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "D:\Google Drive\Coding\Web Development\microblog\app\models.py", line 69, in get_reset_password_token
+    algorithm='HS256').decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2021-05-04 22:47:02,435 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 22:47:14,104 ERROR: Exception on /auth/reset_password_request [POST] [in c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\routes.py", line 61, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\email.py", line 7, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "D:\Google Drive\Coding\Web Development\microblog\app\models.py", line 69, in get_reset_password_token
+    algorithm='HS256').decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2021-05-04 22:51:39,120 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 22:51:49,118 ERROR: Exception on /auth/reset_password_request [POST] [in c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\routes.py", line 60, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\email.py", line 7, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "D:\Google Drive\Coding\Web Development\microblog\app\models.py", line 69, in get_reset_password_token
+    algorithm='HS256').decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2021-05-04 22:53:12,522 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 23:11:59,730 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 23:12:19,747 ERROR: Exception on /auth/reset_password_request [POST] [in c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1892]
+Traceback (most recent call last):
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\abrow\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\routes.py", line 60, in reset_password_request
+    send_password_reset_email(user)
+  File "D:\Google Drive\Coding\Web Development\microblog\app\auth\email.py", line 7, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "D:\Google Drive\Coding\Web Development\microblog\app\models.py", line 69, in get_reset_password_token
+    algorithm='HS256').decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2021-05-04 23:19:49,869 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 23:25:50,914 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:74]
+2021-05-04 23:45:28,698 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:77]
+2021-05-04 23:57:12,212 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:77]
+2021-05-05 00:12:40,094 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:77]
+2021-05-05 00:46:51,974 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:77]
+2021-05-21 16:19:00,471 INFO: Microblog startup [in D:\Google Drive\Coding\Web Development\microblog\app\__init__.py:82]
